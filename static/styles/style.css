@@ -51,8 +51,9 @@ nav ul li a:hover {
     transition: .2s all;
 }
 .logo-image {
-    width: 300px;
-    height: auto;
+    height: 100px;
+    width: auto;
+
 }
 
 #slider {
@@ -61,7 +62,7 @@ nav ul li a:hover {
     justify-self: center;
 }
 .slide {
-    width: 250px;
+    width: 290px;
     background-color: #2d4430 ;
     margin: 0 40px;
     padding: 10px;
@@ -78,13 +79,13 @@ nav ul li a:hover {
     font-weight: 600;
 }
 section {
-    margin: 30px 0;
+    margin-top: 90px;
 }
 .rating  {
     font-size: 16pt;
 }
-.more-info:hover {
-    color: #999;
+.more-info a:hover {
+    color: #999 !important;
     transition: .2s all;
 }
 .sliderbuttons {
@@ -92,6 +93,7 @@ section {
     font-size: 30pt;
     z-index: 100;
     display: flex;
+    margin-top: 30px;
 }
 .prev, .next {
     margin: 0 15px ;
@@ -209,6 +211,8 @@ video {
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.615);
     justify-self: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
 }
 .table {
@@ -531,4 +535,43 @@ footer a {
 .Myinfo_text {
     font-size: 20px;
     line-height: 1.6;
+}
+#heroes {
+    width: 1600px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    row-gap: 20px;
+
+    justify-self: center;
+    justify-content: center;
+}
+.hero {
+    padding: 15px;
+    justify-self: center;
+    background-color: #2d4430;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.615);
+    
+}
+.himage {
+    width: 200px;
+    height: 200px;
+    
+}
+.hname {
+    font-size: 20px;
+    text-align: center;
+}
+.hero a {
+    color: #fff;
+    text-decoration: none;
+    transition: .2s all;
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+}
+.hero a:hover {
+    color: #999;
+    transition: .2s all;
 }

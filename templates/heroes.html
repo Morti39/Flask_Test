@@ -1,2 +1,83 @@
 {% extends 'base.html'%}
-{% block title %} Регистрация {% endblock %}
+{% block title %} Герои войны {% endblock %}
+{% block body %}
+<section id ='heroes'>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Tjulenin.png')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Сергей Тюленин <br> 1925-1943гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Тюленин,_Сергей_Гаврилович">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Motrosov.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Александр Матросов <br> 1924-1943гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Матросов,_Александр_Матвеевич">Подробнее </a>
+    </div>
+
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Maresev.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Алексей Маресьев <br> 1916-2001гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Маресьев,_Алексей_Петрович">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Talalihin.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Виктор Талалихин <br> 1918-1941гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Талалихин,_Виктор_Васильевич">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Corzyn.png')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Андрей Корзун <br> 1911-1943гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Корзун,_Андрей_Григорьевич">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Kyzmin.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Матвей Кузьмин <br> 1858-1943гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Кузьмин,_Матвей_Кузьмич">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Cosmodemianscaja.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Зоя Космодемьянская <br> 1923-1941гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Космодемьянская,_Зоя_Анатольевна">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Pocrishcin.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Александр Покрышкин <br> 1913-1985гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Покрышкин,_Александр_Иванович">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Kozhedyb.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Иван Кожедуб <br> 1920-1991гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Кожедуб,_Иван_Никитович">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Зина_Портнова.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Зина Портнова <br> 1926-1944гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Портнова,_Зинаида_Мартыновна">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Aleksandr_Prokhorov.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Александр Прохоров <br> 1916-2002гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Тюленин,_Сергей_Гаврилович">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Gastello_Nikolay_Francievich.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Николай Гастелло <br> 1907-1941гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Гастелло,_Николай_Францевич">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Ulyana_Matveevna_Gromova.png')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Ульяна Громова <br> 1924-1943гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Громова,_Ульяна_Матвеевна">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Alexey_Berest.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Алексей Берест<br> 1921-1970гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Берест,_Алексей_Прокофьевич">Подробнее </a>
+    </div>
+    <div class="hero">
+        <img src="{{url_for('static', filename ='media/images/Vasiliy-zaytsev.jpg')}}" alt="Сергей Тюленин" class="himage">
+        <div class="hname">Василий Зайцев <br> 1915-1991гг.</div>
+        <a href="https://ru.ruwiki.ru/wiki/Зайцев,_Василий_Григорьевич">Подробнее </a>
+    </div>
+    
+</section>
+{% endblock %}
