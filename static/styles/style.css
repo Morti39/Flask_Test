@@ -101,6 +101,7 @@ section {
     border: solid 2px white;
     padding: 3px 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.629);
+    cursor: pointer;
 }
 .prev:hover, .next:hover {
     color: #aaa;
@@ -202,9 +203,21 @@ video {
     justify-self: center;
     display: flex;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.615);
+    
+}
+.video {
+    justify-self: center;
+}
+.video a{
+    font-size: 15px;text-decoration: none;color: #fff;
+    transition: 0.2s all;
+}
+.video a:hover{
+    color: #999;
+    transition: 0.2s all;
 }
 .comp {
-    width: 1700px;
+    width: 1600px;
     background: #2d4430;
     margin-top: 0;
     padding: 10px;
@@ -527,7 +540,7 @@ footer a {
     border-radius: 20px;
     border-style: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.615);
-
+    margin-bottom: 30px;
 
     text-align: center;
     padding: 20px;
@@ -544,6 +557,7 @@ footer a {
 
     justify-self: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .hero {
     padding: 15px;
